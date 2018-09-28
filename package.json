@@ -1,0 +1,19 @@
+{
+  "name": "simply-react-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic React-Express boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "install": "cd app && yarn install",
+    "start": "concurrently  \"nodemon start\"  \"cd app && yarn start\""
+  },
+  "author": "Manuel E Carpio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}
